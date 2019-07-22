@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE movie SYSTEM "movies.dtd" >
+<movie>
+	<code>101</code>
+	<title>Dark knight</title>
+	<release-date>
+		<day>21</day>
+		<month>03</month>
+		<year>2010</year>
+	</release-date>
+	<theater-name>IMAX</theater-name>
+	<city/>
+	<city>Pune</city>
+	<city>Mumbai</city>
+	<city>Banglore</city>
+</movie>
+<movie>
+  <code>105</code>
+  <title>Doctor Strange</title>
+  <theater-name>PVR Cinemas</theater-name>
+</movie>
