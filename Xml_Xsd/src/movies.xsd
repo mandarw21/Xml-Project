@@ -10,7 +10,7 @@ elementFormDefault="qualified">
 				<element name="movie" maxOccurs="unbounded">
                     <complexType>
                     	<sequence>
-                    		<element name="code">
+                    		<element name="code" >
                     			<simpleType>
                     				<restriction base="int">
                     					<totalDigits value="4"></totalDigits>
@@ -30,9 +30,7 @@ elementFormDefault="qualified">
                     				</restriction>
                     			</simpleType>
                     		</element>
-                    		<element name="city" minOccurs="0" maxOccurs="unbounded">
-                    			
-                    		</element>
+                    		<element name="city" minOccurs="0" maxOccurs="unbounded"></element>
                     	</sequence>
                     </complexType>
                 </element>
